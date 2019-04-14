@@ -21,7 +21,7 @@ namespace Cw3._4
                 text = Console.ReadLine();
                 Int32.TryParse(text, out b);
 
-                Console.WriteLine("Wynik dzielnia: {0} ", a / b);
+                Console.WriteLine("Wynik dzielenia: {0} ", a / b);
 
 
             }
@@ -29,9 +29,13 @@ namespace Cw3._4
             {
                 Console.WriteLine("Nigdy cholero niedziel przez zero");
             }
+            finally
+            {
+                Console.WriteLine("TURURURU!");
 
 
-            Console.ReadKey();
+                Console.ReadKey();
+            }
         }
     }
 }
